@@ -1,0 +1,706 @@
+{
+  "admissions": [
+    {
+      "id": 1,
+      "admissionStatus": "string",
+      "created": "date",
+      "lastModified": "date",
+      "offering": {
+        "offeringId": "1",
+        "preferredStartDate": "date"
+      },
+      "application": {
+        "status": "inProgress",
+        "data": {
+          "firstName": "string",
+          "lastName": "string",
+          "phoneNumber": "number",
+          "address": "string",
+          "birthDate": "Date",
+          "jobTenure": "string",
+          "currentJobTitle": "string",
+          "courseRegistrationExperience": "string",
+          "feedbackApproval": "boolean",
+          "technologyRequirement": "boolean",
+          "signedAt": "Date"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "admissionStatus": "inProgress",
+      "created": "date",
+      "lastModified": "date",
+      "offering": {
+        "offeringId": "uuid",
+        "preferredStartDate": "date"
+      },
+      "application": {
+        "status": "inProgress",
+        "data": {
+          "firstName": "string",
+          "lastName": "string",
+          "phoneNumber": "number",
+          "address": "string",
+          "birthDate": "Date",
+          "jobTenure": "string",
+          "currentJobTitle": "string",
+          "courseRegistrationExperience": "string",
+          "feedbackApproval": "boolean",
+          "technologyRequirement": "boolean",
+          "signedAt": "Date"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "admissionStatus": "inProgress",
+      "created": "date",
+      "lastModified": "date",
+      "offering": {
+        "offeringId": "uuid",
+        "preferredStartDate": "date"
+      },
+      "application": {
+        "status": "inProgress",
+        "data": {
+          "firstName": "string",
+          "lastName": "string",
+          "phoneNumber": "number",
+          "address": "string",
+          "birthDate": "Date",
+          "jobTenure": "string",
+          "currentJobTitle": "string",
+          "courseRegistrationExperience": "string",
+          "feedbackApproval": "boolean",
+          "technologyRequirement": "boolean",
+          "signedAt": "Date"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "admissionStatus": "Done",
+      "created": "date",
+      "lastModified": "date",
+      "offering": {
+        "offeringId": "uuid",
+        "preferredStartDate": "date"
+      },
+      "application": {
+        "status": "inProgress",
+        "data": {
+          "firstName": "string",
+          "lastName": "string",
+          "phoneNumber": "number",
+          "address": "string",
+          "birthDate": "Date",
+          "jobTenure": "string",
+          "currentJobTitle": "string",
+          "courseRegistrationExperience": "string",
+          "feedbackApproval": "boolean",
+          "technologyRequirement": "boolean",
+          "signedAt": "Date"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "admissionStatus": "Done",
+      "created": "date",
+      "lastModified": "date",
+      "offering": {
+        "offeringId": "uuid",
+        "preferredStartDate": "date"
+      },
+      "application": {
+        "status": "inProgress",
+        "data": {
+          "firstName": "string",
+          "lastName": "string",
+          "phoneNumber": "number",
+          "address": "string",
+          "birthDate": "Date",
+          "jobTenure": "string",
+          "currentJobTitle": "string",
+          "courseRegistrationExperience": "string",
+          "feedbackApproval": "boolean",
+          "technologyRequirement": "boolean",
+          "signedAt": "Date"
+        }
+      }
+    },
+    {
+      "id": 6,
+      "admissionStatus": "Done",
+      "created": "date",
+      "lastModified": "date",
+      "offering": {
+        "offeringId": "uuid",
+        "preferredStartDate": "date"
+      },
+      "application": {
+        "status": "inProgress",
+        "data": {
+          "firstName": "string",
+          "lastName": "string",
+          "phoneNumber": "number",
+          "address": "string",
+          "birthDate": "Date",
+          "jobTenure": "string",
+          "currentJobTitle": "string",
+          "courseRegistrationExperience": "string",
+          "feedbackApproval": "boolean",
+          "technologyRequirement": "boolean",
+          "signedAt": "Date"
+        }
+      }
+    },
+    {
+      "id": 123,
+      "admissionStatus": "string",
+      "created": "date",
+      "lastModified": "date",
+      "offering": {
+        "offeringId": "uuid",
+        "preferredStartDate": "date"
+      },
+      "application": {
+        "status": "Completed",
+        "data": {
+          "firstName": "string",
+          "lastName": "string",
+          "phoneNumber": "number",
+          "address": "string",
+          "birthDate": "Date",
+          "jobTenure": "string",
+          "currentJobTitle": "string",
+          "courseRegistrationExperience": "string",
+          "feedbackApproval": "boolean",
+          "technologyRequirement": "boolean",
+          "signedAt": "Date"
+        }
+      }
+    },
+    {
+      "id": "example POST response after sending offering on NEXT",
+      "admissionStatus": "string",
+      "created": "date",
+      "lastModified": "date",
+      "offering": {
+        "offeringId": "uuid",
+        "preferredStartDate": "date"
+      },
+      "application": null
+    }
+  ],
+  "offerings": [
+    {
+      "id": "1",
+      "authorId": "abc",
+      "productComponent": {},
+      "status": "DRAFT",
+      "name": "Introduction to Science",
+      "description": "This Offering will cover biology and chemistry\n",
+      "startDate": "2019-05-16T04:59:00.000Z",
+      "endDate": "2019-05-16T04:59:00.000Z",
+      "type": "INDIVIDUAL_COURSE",
+      "dateCreated": "2019-05-16T04:59:00.000Z",
+      "dateModified": "2019-05-16T04:59:00.000Z",
+      "archivalDate": "2019-05-16T04:59:00.000Z"
+    },
+    {
+      "id": "2",
+      "authorId": "bcd",
+      "productComponent": {},
+      "status": "DRAFT",
+      "name": "Introduction to Mathematics",
+      "description": "This Offering will cover addition and substraction and will get you ready for Math-101\n",
+      "startDate": "2019-05-16T04:59:00.000Z",
+      "endDate": "2019-05-16T04:59:00.000Z",
+      "type": "INDIVIDUAL_COURSE",
+      "dateCreated": "2019-05-16T04:59:00.000Z",
+      "dateModified": "2019-05-16T04:59:00.000Z",
+      "archivalDate": "2019-05-16T04:59:00.000Z"
+    },
+    {
+      "id": "3",
+      "authorId": "bcd",
+      "productComponent": {},
+      "status": "DRAFT",
+      "name": "Introduction to Mathematics",
+      "description": "This Offering will cover addition and substraction and will get you ready for Math-101\n",
+      "startDate": "2019-05-16T04:59:00.000Z",
+      "endDate": "2019-05-16T04:59:00.000Z",
+      "type": "INDIVIDUAL_COURSE",
+      "dateCreated": "2019-05-16T04:59:00.000Z",
+      "dateModified": "2019-05-16T04:59:00.000Z",
+      "archivalDate": "2019-05-16T04:59:00.000Z"
+    },
+    {
+      "id": "4",
+      "authorId": "bcd",
+      "productComponent": {},
+      "status": "DRAFT",
+      "name": "Introduction to Mathematics",
+      "description": "This Offering will cover addition and substraction and will get you ready for Math-101\n",
+      "startDate": "2019-05-16T04:59:00.000Z",
+      "endDate": "2019-05-16T04:59:00.000Z",
+      "type": "INDIVIDUAL_COURSE",
+      "dateCreated": "2019-05-16T04:59:00.000Z",
+      "dateModified": "2019-05-16T04:59:00.000Z",
+      "archivalDate": "2019-05-16T04:59:00.000Z"
+    },
+    {
+      "id": "5",
+      "authorId": "bcd",
+      "productComponent": {},
+      "status": "DRAFT",
+      "name": "Introduction to Mathematics",
+      "description": "This Offering will cover addition and substraction and will get you ready for Math-101\n",
+      "startDate": "2019-05-16T04:59:00.000Z",
+      "endDate": "2019-05-16T04:59:00.000Z",
+      "type": "INDIVIDUAL_COURSE",
+      "dateCreated": "2019-05-16T04:59:00.000Z",
+      "dateModified": "2019-05-16T04:59:00.000Z",
+      "archivalDate": "2019-05-16T04:59:00.000Z"
+    },
+    {
+      "id": "6",
+      "authorId": "bcd",
+      "productComponent": {},
+      "status": "DRAFT",
+      "name": "Introduction to Mathematics",
+      "description": "This Offering will cover addition and substraction and will get you ready for Math-101\n",
+      "startDate": "2019-05-16T04:59:00.000Z",
+      "endDate": "2019-05-16T04:59:00.000Z",
+      "type": "INDIVIDUAL_COURSE",
+      "dateCreated": "2019-05-16T04:59:00.000Z",
+      "dateModified": "2019-05-16T04:59:00.000Z",
+      "archivalDate": "2019-05-16T04:59:00.000Z"
+    },
+    {
+      "id": "7",
+      "authorId": "bcd",
+      "productComponent": {},
+      "status": "DRAFT",
+      "name": "Introduction to Mathematics",
+      "description": "This Offering will cover addition and substraction and will get you ready for Math-101\n",
+      "startDate": "2019-05-16T04:59:00.000Z",
+      "endDate": "2019-05-16T04:59:00.000Z",
+      "type": "INDIVIDUAL_COURSE",
+      "dateCreated": "2019-05-16T04:59:00.000Z",
+      "dateModified": "2019-05-16T04:59:00.000Z",
+      "archivalDate": "2019-05-16T04:59:00.000Z"
+    },
+    {
+      "id": "8",
+      "authorId": "bcd",
+      "productComponent": {},
+      "status": "DRAFT",
+      "name": "Introduction to Mathematics",
+      "description": "This Offering will cover addition and substraction and will get you ready for Math-101\n",
+      "startDate": "2019-05-16T04:59:00.000Z",
+      "endDate": "2019-05-16T04:59:00.000Z",
+      "type": "INDIVIDUAL_COURSE",
+      "dateCreated": "2019-05-16T04:59:00.000Z",
+      "dateModified": "2019-05-16T04:59:00.000Z",
+      "archivalDate": "2019-05-16T04:59:00.000Z"
+    },
+    {
+      "id": "9",
+      "authorId": "bcd",
+      "productComponent": {},
+      "status": "DRAFT",
+      "name": "Introduction to Mathematics",
+      "description": "This Offering will cover addition and substraction and will get you ready for Math-101\n",
+      "startDate": "2019-05-16T04:59:00.000Z",
+      "endDate": "2019-05-16T04:59:00.000Z",
+      "type": "INDIVIDUAL_COURSE",
+      "dateCreated": "2019-05-16T04:59:00.000Z",
+      "dateModified": "2019-05-16T04:59:00.000Z",
+      "archivalDate": "2019-05-16T04:59:00.000Z"
+    },
+    {
+      "id": "10",
+      "authorId": "bcd",
+      "productComponent": {},
+      "status": "DRAFT",
+      "name": "Introduction to Mathematics",
+      "description": "This Offering will cover addition and substraction and will get you ready for Math-101\n",
+      "startDate": "2019-05-16T04:59:00.000Z",
+      "endDate": "2019-05-16T04:59:00.000Z",
+      "type": "INDIVIDUAL_COURSE",
+      "dateCreated": "2019-05-16T04:59:00.000Z",
+      "dateModified": "2019-05-16T04:59:00.000Z",
+      "archivalDate": "2019-05-16T04:59:00.000Z"
+    },
+    {
+      "id": "11",
+      "authorId": "bcd",
+      "productComponent": {},
+      "status": "DRAFT",
+      "name": "Introduction to Mathematics",
+      "description": "This Offering will cover addition and substraction and will get you ready for Math-101\n",
+      "startDate": "2019-05-16T04:59:00.000Z",
+      "endDate": "2019-05-16T04:59:00.000Z",
+      "type": "INDIVIDUAL_COURSE",
+      "dateCreated": "2019-05-16T04:59:00.000Z",
+      "dateModified": "2019-05-16T04:59:00.000Z",
+      "archivalDate": "2019-05-16T04:59:00.000Z"
+    },
+    {
+      "id": "12",
+      "authorId": "bcd",
+      "productComponent": {},
+      "status": "DRAFT",
+      "name": "Introduction to Mathematics",
+      "description": "This Offering will cover addition and substraction and will get you ready for Math-101\n",
+      "startDate": "2019-05-16T04:59:00.000Z",
+      "endDate": "2019-05-16T04:59:00.000Z",
+      "type": "INDIVIDUAL_COURSE",
+      "dateCreated": "2019-05-16T04:59:00.000Z",
+      "dateModified": "2019-05-16T04:59:00.000Z",
+      "archivalDate": "2019-05-16T04:59:00.000Z"
+    },
+    {
+      "id": "13",
+      "authorId": "bcd",
+      "productComponent": {},
+      "status": "DRAFT",
+      "name": "Introduction to Mathematics",
+      "description": "This Offering will cover addition and substraction and will get you ready for Math-101\n",
+      "startDate": "2019-05-16T04:59:00.000Z",
+      "endDate": "2019-05-16T04:59:00.000Z",
+      "type": "INDIVIDUAL_COURSE",
+      "dateCreated": "2019-05-16T04:59:00.000Z",
+      "dateModified": "2019-05-16T04:59:00.000Z",
+      "archivalDate": "2019-05-16T04:59:00.000Z"
+    }
+  ],
+  "competencies": [
+    {
+      "courseId": "mock-course-id-1",
+      "title": "Social Science Theory & Methodology",
+      "description": "Social Science Theory & Methodology",
+      "competencyWeight": 40
+    },
+    {
+      "courseId": "mock-course-id-1",
+      "title": "Social Science & Human Development",
+      "description": "Social Science & Human Development",
+      "competencyWeight": 60
+    },
+    {
+      "courseId": "mock-course-id-1",
+      "title": "Modern Institutions",
+      "description": "Modern Institutions",
+      "competencyWeight": 23
+    },
+    {
+      "courseId": "mock-course-id-1",
+      "title": "Culture and Physical Environment",
+      "description": "Culture and Physical Environment",
+      "competencyWeight": 15
+    },
+    {
+      "courseId": "mock-course-id-2",
+      "title": "Social Science Theory & Methodology",
+      "description": "Social Science Theory & Methodology",
+      "competencyWeight": 40
+    },
+    {
+      "courseId": "mock-course-id-2",
+      "title": "Social Science & Human Development",
+      "description": "Social Science & Human Development",
+      "competencyWeight": 60
+    },
+    {
+      "courseId": "mock-course-id-2",
+      "title": "Modern Institutions",
+      "description": "Modern Institutions",
+      "competencyWeight": 23
+    },
+    {
+      "courseId": "mock-course-id-2",
+      "title": "Culture and Physical Environment",
+      "description": "Culture and Physical Environment",
+      "competencyWeight": 15
+    },
+    {
+      "courseId": "mock-course-id-3",
+      "title": "Social Science Theory & Methodology",
+      "description": "Social Science Theory & Methodology",
+      "competencyWeight": 40
+    },
+    {
+      "courseId": "mock-course-id-3",
+      "title": "Social Science & Human Development",
+      "description": "Social Science & Human Development",
+      "competencyWeight": 60
+    },
+    {
+      "courseId": "mock-course-id-3",
+      "title": "Modern Institutions",
+      "description": "Modern Institutions",
+      "competencyWeight": 23
+    },
+    {
+      "courseId": "mock-course-id-4",
+      "title": "Social Science & Human Development",
+      "description": "Social Science & Human Development",
+      "competencyWeight": 15
+    },
+    {
+      "courseId": "mock-course-id-4",
+      "title": "Modern Institutions",
+      "description": "Modern Institutions",
+      "competencyWeight": 23
+    }
+  ],
+  "registeredCourses": [
+    {
+      "id": 43454901,
+      "courseId": "mock-course-id-1",
+      "courseCode": "CRS-101",
+      "courseStatus": "NOTREADY",
+      "courseDescription": "course description!",
+      "externalCourseId": "b407c513-6823-9867-b4e9-2d78c26d1b65",
+      "name": "Mock Course 1",
+      "dateCreated": "1995-12-26",
+      "dateUpdated": "1989-12-24",
+      "estimatedStartDate": "1995-12-26",
+      "estimatedEndDate": "1989-12-24",
+      "estimatedCompletion": "2 Hours",
+      "competencyUnits": 2,
+      "completionTimeAverage": 3,
+      "active": false
+    },
+    {
+      "id": 43454902,
+      "courseId": "mock-course-id-2",
+      "courseCode": "CRS-102",
+      "courseStatus": "READYTOSTART",
+      "courseDescription": "This course introduces you to social scientific perspectives on how humans organize       themselves in society and how they seek to resolve and understand the problems that       they encounter in society. The social sciences provide people not noy with knowledge       about the development and nature of human society, but also with the means to ask       critical questions about lorem ipsum dolor sit amet, consectetur adipiscing elit.       Donec odio lorem, pretium in convallis non, rhoncus ut ligula. Vestibulum ante ipsum       primis in faucibus orci luctus et ultrices posuere cubilia curae; Nunc vitae ornare mi,       ac hendrerit mi. Duis congue, dolor non convallis sollicitudin, elit tortor tristique       orci, fermentum vestibulum lorem elit vel ligula. Vestibulum vehicula luctus placerat.       Donec semper sapien quis nulla interdum ultrices. Orci varius natoque penatibus et magnis       dis parturient montes, nascetur ridiculus mus. Sed finibus viverra neque a tempus. Integer       feugiat erat ante, ac hendrerit dui pellentesque eu.",
+      "externalCourseId": "136c3993-c079-6f16-aebf-f8703eed3388",
+      "name": "Mock Course 2",
+      "dateCreated": "1988-02-17",
+      "dateUpdated": "2019-06-02",
+      "estimatedStartDate": "1988-02-17",
+      "estimatedEndDate": "2019-06-02",
+      "estimatedCompletion": "2 Hours",
+      "competencyUnits": 2,
+      "completionTimeAverage": 3,
+      "active": true
+    },
+    {
+      "id": 43454903,
+      "courseId": "mock-course-id-3",
+      "courseCode": "CRS-103",
+      "courseStatus": "INPROGRESS",
+      "courseDescription": "course description!",
+      "externalCourseId": "136c3993-c079-6f16-aebf-f8703eed3388",
+      "name": "Mock Course 3",
+      "dateCreated": "1988-02-17",
+      "dateUpdated": "2019-06-02",
+      "estimatedStartDate": "1988-02-17",
+      "estimatedEndDate": "2019-06-02",
+      "estimatedCompletion": "2 Hours",
+      "competencyUnits": 2,
+      "completionTimeAverage": 3,
+      "active": true
+    },
+    {
+      "id": 43454904,
+      "courseId": "mock-course-id-4",
+      "courseCode": "CRS-104",
+      "courseStatus": "READYTOSTART",
+      "courseDescription": "course description!",
+      "externalCourseId": "136c3993-c079-6f16-aebf-f8703eed3388",
+      "name": "Mock Course 4",
+      "dateCreated": "1988-02-17",
+      "dateUpdated": "2019-06-02",
+      "estimatedStartDate": "1988-02-17",
+      "estimatedEndDate": "2019-06-02",
+      "estimatedCompletion": "2 Hours",
+      "competencyUnits": 2,
+      "completionTimeAverage": 3,
+      "active": true
+    },
+    {
+      "id": 43454905,
+      "courseId": "mock-course-id-5",
+      "courseCode": "CRS-105",
+      "courseStatus": "NOTREADY",
+      "courseDescription": "course description!",
+      "externalCourseId": "136c3993-c079-6f16-aebf-f8703eed3388",
+      "name": "Mock Course 5",
+      "dateCreated": "1988-02-17",
+      "dateUpdated": "2019-06-02",
+      "estimatedStartDate": "1988-02-17",
+      "estimatedEndDate": "2019-06-02",
+      "estimatedCompletion": "2 Hours",
+      "competencyUnits": 2,
+      "completionTimeAverage": 3,
+      "active": true
+    }
+  ],
+  "newOfferings": [
+    {
+      "id": "123",
+      "courseIds": [
+        "123"
+      ],
+      "name": "test-name",
+      "term": "test-term",
+      "url": "test-url",
+      "notes": "test-notes",
+      "publicationDate": "",
+      "archiveDate": "",
+      "dateModified": "",
+      "authorId": "",
+      "dateCreated": "",
+      "courses": [
+        {
+          "id": "123",
+          "name": "",
+          "description": "",
+          "courseCode": "",
+          "shortName": ""
+        }
+      ]
+    }
+  ],
+  "finance": [
+    {
+      "offeringId": "finance1",
+      "courseCosts": [
+        {
+          "courseId": "123",
+          "cost": {
+            "amount": 99.95,
+            "currencty": "USD"
+          }
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "achievementId": "mock-course-achievement-uuid-1",
+      "type": "COURSE",
+      "title": "Lorem Ipsum Badge",
+      "created": "",
+      "icon": "achievement",
+      "imageUrl": "https://api.badgr.io/public/badges/G1wNQGiHShCMUmTvmIM4tw/image",
+      "description": "mock-course-achievement-uuid-1",
+      "badgeUrl": "https://badgr.com/public/badges/G1wNQGiHShCMUmTvmIM4tw"
+    },
+    {
+      "achievementId": "mock-achievement-uuid-2",
+      "type": "COMPETENCY",
+      "title": "Lorem Ipsum Badge",
+      "created": "",
+      "icon": "achievement",
+      "imageUrl": "https://api.badgr.io/public/badges/G1wNQGiHShCMUmTvmIM4tw/image",
+      "description": "mock-achievement-uuid-2",
+      "badgeUrl": "https://badgr.com/public/badges/G1wNQGiHShCMUmTvmIM4tw",
+      "parentId": "mock-course-achievement-uuid-1"
+    },
+    {
+      "achievementId": "mock-achievement-uuid-3",
+      "type": "COMPETENCY",
+      "title": "Lorem Ipsum Badge",
+      "created": "",
+      "icon": "achievement",
+      "imageUrl": "https://api.badgr.io/public/badges/G1wNQGiHShCMUmTvmIM4tw/image",
+      "description": "mock-achievement-uuid-3",
+      "badgeUrl": "https://badgr.com/public/badges/G1wNQGiHShCMUmTvmIM4tw",
+      "parentId": "mock-course-achievement-uuid-1"
+    },
+    {
+      "achievementId": "mock-achievement-uuid-4",
+      "type": "COMPETENCY",
+      "title": "Lorem Ipsum Badge",
+      "created": "",
+      "icon": "achievement",
+      "imageUrl": "https://api.badgr.io/public/badges/G1wNQGiHShCMUmTvmIM4tw/image",
+      "description": "mock-achievement-uuid-4",
+      "badgeUrl": "https://badgr.com/public/badges/G1wNQGiHShCMUmTvmIM4tw",
+      "parentId": "mock-course-achievement-uuid-1"
+    }
+  ],
+  "completiondates": {
+    "courseId": "mock-course-id-1",
+    "targetStartDate": "2021-02-28",
+    "targetEndDate": "2021-03-14"
+  },
+  "courseContents": [
+    "mock-course-url"
+  ],
+  "persons": [
+    {
+      "names": [
+        {
+          "type": "preferred",
+          "first": "Alan",
+          "middle": "K.",
+          "last": "Robinson"
+        },
+        {
+          "type": "",
+          "first": "some text",
+          "middle": "some text",
+          "last": "some text"
+        }
+      ],
+      "wguId": "mock-staff-uuid-1",
+      "email": {
+        "type": "preferred",
+        "address": "professor.email@WGU.edu"
+      },
+      "phone": {
+        "type": "preferred",
+        "number": "(385) 555-4500"
+      },
+      "pronouns": [
+        {
+          "name": "some text",
+          "case": "PossessivePronoun"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "staffWguId": "mock-staff-uuid-1",
+      "learnerWguId": "mock-wgu-id",
+      "courseId": "mock-course-id-1",
+      "relationshipType": "PRI"
+    },
+    {
+      "staffWguId": "mock-staff-uuid-1",
+      "learnerWguId": "mock-wgu-id",
+      "courseId": "mock-course-id-2",
+      "relationshipType": "PRI"
+    },
+    {
+      "staffWguId": "mock-staff-uuid-1",
+      "learnerWguId": "mock-wgu-id",
+      "courseId": "mock-course-id-3",
+      "relationshipType": "PRI"
+    },
+    {
+      "staffWguId": "mock-staff-uuid-1",
+      "learnerWguId": "mock-wgu-id",
+      "courseId": "mock-course-id-4",
+      "relationshipType": "PRI"
+    },
+    {
+      "staffWguId": "mock-staff-uuid-1",
+      "learnerWguId": "mock-wgu-id",
+      "courseId": "mock-course-id-5",
+      "relationshipType": "PRI"
+    }
+  ]
+}
